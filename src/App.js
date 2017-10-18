@@ -5,7 +5,7 @@ import './App.css';
 import Form from './Form.js';
 
 class App extends Component {
-  render() {
+  render() { 
     return (
       <div className="App">
         <div className="App-header">
