@@ -2,3 +2,74 @@
 	width: 80%;
 	margin: auto;
 } 
+
+@media screen and (min-width: 480px) {
+    .demoForm {
+        width:70%;
+        margin: auto;
+    }
+}
+
+.headerfont {
+    letter-spacing: 3px;
+    font-family: "Century Gothic", Century, serif;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+
+.specialfont {
+    letter-spacing: 3px;
+    font-family: "Century Gothic", Century, serif;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.submitbutton {
+    background-color: #27a348; /* frn green */
+    letter-spacing: 3px;
+    font-family: "Century Gothic", Century, serif;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 13px;
+    margin-bottom: 40px;
+}
+
+/* Add a black background color to the navigation pane */
+.navpane {
+    background-color: #27a348; /* frn green */
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation pane */
+.navpane a {
+    letter-spacing: 3px;
+    font-family: "Century Gothic", Century, serif;
+    border-right:solid 1px #fff;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navpane a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.navpane a.active {
+    background-color: #4CAF50;
+    color: white;
+}
