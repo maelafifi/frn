@@ -7,7 +7,7 @@ export const FormErrors = ({formErrors}) =>
         return (
           <p key={i}>{fieldName} {formErrors[fieldName]}</p>
         )        
-      } else { 
+      } else {
         return '';
       }
     })}
