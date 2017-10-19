@@ -9,6 +9,7 @@ class App extends Component {
   render() { 
     return (
       <div className="App">
+      <button type="submit" class="Adminfont">Admin Page</button>
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo"/>
           <img src={filler} className="filler" alt="filler"/>

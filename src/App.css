@@ -6,6 +6,21 @@
   height: 130px;
 }
 
+.Adminfont {
+    background-color: black; /* frn green */
+    letter-spacing: 3px;
+    font-family: "Century Gothic", Century, serif;
+    border: none;
+    color: white;
+    padding: 5px 17px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 400px;
+}
+
 .App-header {
   background-color: #ffffff;
 /*  height: 150px;

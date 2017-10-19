@@ -132,10 +132,10 @@ class Form extends Component {
 
         <button type="submit" class="submitbutton" disabled={!this.state.formValid}>Submit</button>
 
-        <div align="center" class="navpane" id="mynav">
-          <a href="#demoForm">Report<br />Food</a>
-          <a href="#FRN Events">FRN<br />Events</a>
-          <a href="https://www.foodrecoverynetwork.org/aboutus/">About Us</a>
+        <div class="navpane" id="mynav">
+          <a href="https://www.foodrecoverynetwork.org/aboutus/">Report<br />Food</a>
+          <a href="https://www.foodrecoverynetwork.org/aboutus/">FRN<br />Events</a>
+          <a href="https://www.foodrecoverynetwork.org/aboutus/">About<br />Us</a>
         </div>
       </form>
     )

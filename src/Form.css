@@ -46,20 +46,23 @@
 .navpane {
     background-color: #27a348; /* frn green */
     overflow: hidden;
+    text-align: center;
 }
 
 /* Style the links inside the navigation pane */
 .navpane a {
     letter-spacing: 3px;
     font-family: "Century Gothic", Century, serif;
-    border-right:solid 1px #fff;
     float: left;
     display: block;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 14px 33px;
     text-decoration: none;
     font-size: 17px;
+}
+
+a:not(:last-child) { 
+    border-right:solid 1px #fff;/* This will not give border to last li element */
 }
 
 /* Change the color of links on hover */
