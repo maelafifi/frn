@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { FormErrors } from './FormErrors';
 import './Form.css'; 
+import Form2 from './Form.js';
+import Form3 from './Form.js';
+import Form4 from './Form.js';
 
 class Form extends Component {
   constructor (props) {
@@ -47,14 +50,18 @@ class Form extends Component {
       case 'name':
         nameValid = value.length >= 2;
         fieldValidationErrors.name = nameValid ? '': ' is too short';
+        break;
       case 'phone':
-        phoneValid = value.length == 10;
+        phoneValid = value.length === 10;
         fieldValidationErrors.phone = phoneValid ? '': ' please enter only 10 numbers, without special characters';
+        break;
       case 'date':
-        dateValid = value.length == 10;
+        dateValid = value.length === 10;
         fieldValidationErrors.date = dateValid ? '': ' Please enter MM/DD/YYYY format';
+        break;
       case 'time':
         timeValid = true;
+        break;
       case 'building':
         buildingValid = value.length >= 4;
         fieldValidationErrors.building = buildingValid ? '': 'Building name too short; please reenter';
@@ -136,9 +143,9 @@ class Form extends Component {
         <button type="submit" class="submitbutton" disabled={!this.state.formValid}>Submit</button>
 
         <div class="navpane" id="mynav">
-          <a href="https://www.foodrecoverynetwork.org/aboutus/">Report<br />Food</a>
-          <a href="https://www.foodrecoverynetwork.org/aboutus/">FRN<br />Events</a>
-          <a href="https://www.foodrecoverynetwork.org/aboutus/">About<br />Us</a>
+          <a href="Form">Report<br />Food</a>
+          <a href= "Form2">FRN<br />Events</a>
+          <a href="Form3">About<br />Us</a>
         </div>
       </form>
     )
