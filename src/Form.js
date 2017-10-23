@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { FormErrors } from './FormErrors';
 import './Form.css'; 
-import Form2 from './Form.js';
-import Form3 from './Form.js';
-import Form4 from './Form.js';
+
 
 class Form extends Component {
   constructor (props) {
@@ -141,12 +139,6 @@ class Form extends Component {
         </div>
 
         <button type="submit" class="submitbutton" disabled={!this.state.formValid}>Submit</button>
-
-        <div class="navpane" id="mynav">
-          <a href="Form">Report<br />Food</a>
-          <a href= "Form2">FRN<br />Events</a>
-          <a href="Form3">About<br />Us</a>
-        </div>
       </form>
     )
   }

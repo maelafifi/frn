@@ -115,7 +115,7 @@ a:not(:last-child) {
     float: left;
     display: block;
     color: #f2f2f2;
-    padding: 3% 10%;
+    padding: 3% 10.14%;
     text-decoration: none;
     font-size: 17px;
 }
