@@ -137,8 +137,11 @@ class Form extends Component {
             value={this.state.building}
             onChange={this.handleUserInput}  />
         </div>
-
+        <br/>
         <button type="submit" class="submitbutton" disabled={!this.state.formValid}>Submit</button>
+        <br/>
+        <br/>
+        <br/>
       </form>
     )
   }
