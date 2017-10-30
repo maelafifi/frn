@@ -1,0 +1,175 @@
+.App {
+  text-align: center; 
+}
+
+.App-logo {
+  height: 130px;
+}
+
+.Adminfont {
+    background-color: black; /* frn green */
+    border: none;
+    color: white;
+    font-size: 80%;
+    margin-top: 15px;
+    margin-left: 75%;
+}
+
+.App-header {
+  background-color: #ffffff;
+/*  height: 150px;
+  padding: 10px;*/
+  margin-bottom:30px;
+  margin-top:50px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/*@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}*/
+
+/* don't know why this is here ^ */
+
+
+.demoForm {
+  width: 80%;
+  margin: auto;
+} 
+/*.headerfont {
+    letter-spacing: 3px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}*/
+
+/*.specialfont {
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+}*/
+
+.submitbutton {
+    background-color: #27a348; /* frn green */
+    letter-spacing: 3px;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* Add a black background color to the navigation pane */
+.navpane {
+    background-color: #27a348; /* frn green */
+    overflow: hidden;
+    text-align: center;
+    width:50%;
+}
+
+/* Style the links inside the navigation pane */
+.navpane a {
+    letter-spacing: 3px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 10% 6.5%;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+a:not(:last-child) { 
+    border-right:solid 1px #fff;/* This will not give border to last li element */
+}
+
+/* Change the color of links on hover */
+.navpane a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.navpane a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+@media screen and (min-width: 480px) {
+    .demoForm {
+        width:40%;
+        margin: auto;
+    }
+/*.headerfont {
+    letter-spacing: 3px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}*/
+
+/*.specialfont {
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+}*/
+
+.submitbutton {
+    background-color: #27a348; /* frn green */
+    letter-spacing: 3px;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* Add a black background color to the navigation pane */
+.navpane {
+    background-color: #27a348; /* frn green */
+    overflow: hidden;
+    text-align: center;
+    width:100%;
+}
+
+/* Style the links inside the navigation pane */
+.navpane a {
+    letter-spacing: 3px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 3% 10.14%;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+a:not(:last-child) { 
+    border-right:solid 1px #fff;/* This will not give border to last li element */
+}
+
+/* Change the color of links on hover */
+.navpane a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.navpane a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+}
