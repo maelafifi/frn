@@ -18,6 +18,7 @@
 }*/
 
 .submitbutton {
+    border-radius: 5px 5px 5px 5px;
     background-color: #27a348; /* frn green */
     letter-spacing: 3px;
     border: none;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import egg from './egg.png';
 import { FormErrors } from './FormErrors';
 import './Form.css'; 
-
 
 class Form extends Component {
   constructor (props) {
@@ -29,6 +29,7 @@ class Form extends Component {
     const value = e.target.value;
     this.setState({[name]: value},
                   () => { this.validateField(name, value) });
+
   }
 
   validateField(fieldName, value) {
@@ -82,6 +83,11 @@ class Form extends Component {
       this.state.dateValid && this.state.timeValid && this.state.buildingValid});
   }
 
+  showImage() {
+    var image = document.getElementById('myImage');
+    image.style.display = 'block';
+  }
+
   errorClass(error) {
     return(error.length === 0 ? '' : 'has-error');
   }
@@ -90,6 +96,7 @@ class Form extends Component {
     return (
       <form className="demoForm">
         <div class="headerfont">
+        <img src={egg} name="myImage" style={{display:'none'}}/>
           <h4>Enter Information For Food Pickup</h4>
         </div>
         <div className="panel panel-default">

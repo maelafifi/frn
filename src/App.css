@@ -19,8 +19,8 @@
   background-color: #ffffff;
 /*  height: 150px;
   padding: 10px;*/
-  margin-bottom:30px;
-  margin-top:50px;
+  margin-bottom:2%;
+  margin-top:2%;
 }
 
 .App-intro {
@@ -53,6 +53,21 @@
     margin-left: 10px;
     margin-right: 10px;
 }*/
+.myButton{
+    background:url(./gear.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    margin-left: 90%;
+    margin-top: 3%;
+    width:25px;
+    height:25px;
+}
+
+.myButton:active  /* use Dot here */
+{   
+    background:url(./gear.png) no-repeat;
+}
+
 
 .submitbutton {
     background-color: #27a348; /* frn green */
